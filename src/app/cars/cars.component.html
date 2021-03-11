@@ -10,9 +10,9 @@
 <!--<app-car *ngFor="let car of cars"></app-car>-->
 
 <ul>
-  <li *ngFor="let car of cars; let idx = index">
+  <li *ngFor="let date of dates; let idx = index">
     <div>
-      <b>{{idx + 1}}</b> - {{car}}
+      <b>{{idx + 1}}</b> - {{date | uppercase}}
     </div>
   </li>
 </ul>
